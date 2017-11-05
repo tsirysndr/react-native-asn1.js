@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-asn1.js@^4.0.0",
+        "scope": null,
+        "escapedName": "react-native-asn1.js",
+        "name": "react-native-asn1.js",
+        "rawSpec": "^4.0.0",
+        "spec": ">=4.0.0 <5.0.0",
+        "type": "range"
+      }
+    ]
+  ],
+  "author": {
+    "name": "Tsiry Sandratraina"
+  },
+  "bugs": {
+    "url": "https://github.com/realtsiry/react-native-asn1.js/issues"
+  },
+  "dependencies": {
+    "bn.js": "^4.0.0",
+    "inherits": "^2.0.1",
+    "minimalistic-assert": "^1.0.0",
+    "vm-browserify": "0.0.4"
+  },
+  "description": "React Native ASN.1 encoder and decoder",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "directories": {},
+  "homepage": "https://github.com/realtsiry/react-native-asn1.js",
+  "keywords": [
+    "asn.1",
+    "der",
+    "react-native"
+  ],
+  "license": "MIT",
+  "main": "lib/asn1.js",
+  "maintainers": [
+    {
+      "name": "tsiry",
+      "email": "tsiryid@gmail.com"
+    }
+  ],
+  "name": "react-native-asn1.js",
+  "optionalDependencies": {},
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/realtsiry/react-native-asn1.js.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*-test.js rfc/2560/test/*-test.js rfc/5280/test/*-test.js"
+  },
+  "version": "4.9.2",
+  "react-native": {
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "dgram": "react-native-udp",
+    "stream": "stream-browserify",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  },
+  "browser": {
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "dgram": "react-native-udp",
+    "stream": "stream-browserify",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  }
+}
